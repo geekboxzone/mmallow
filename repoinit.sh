@@ -75,6 +75,7 @@ while [ "$reponum" -le "$REPONUMS" ]; do
 	if [ $checkresult = 0 ]; then
 		echo "-------------->[$reponum]Done: $repo_name"
 		let ++reponum
+		trynum=1
 		continue
 	else
 		echo "Fail to clone: $repo_name [$trynum] times!"
@@ -83,6 +84,7 @@ while [ "$reponum" -le "$REPONUMS" ]; do
 		if [ $trynum -gt $MAXTRYNUM ]; then
 			echo "Exit to try! you need clone this repository by manual."
 			echo "Then fix <reponum=$reponum> to continue."
+			echo "Or just simply run this script again to complete the downloading."
 			break;
 		fi
 	fi
@@ -97,6 +99,6 @@ git clone $android_urlbase/platform/external/eclipse-basebuilder -b $android_ver
 git clone $android_urlbase/platform/prebuilts/clang/linux-x86/host/3.6 -b $android_version prebuilts/clang/linux-x86/host/3.6
 git clone $android_urlbase/platform/prebuilts/sdk -b $android_version prebuilts/sdk
 git clone $android_urlbase/platform/prebuilts/eclipse -b $android_version prebuilts/eclipse
-git clone $android_urlbase/external/google-breakpad -b $android_version external/google-breakpad
+git clone $android_urlbase/platform/external/google-breakpad -b $android_version external/google-breakpad
 git clone $android_urlbase/platform/prebuilts/android-emulator -b $android_version prebuilts/android-emulator
 git clone $android_urlbase/platform/prebuilts/qemu-kernel -b $android_version prebuilts/qemu-kernel
