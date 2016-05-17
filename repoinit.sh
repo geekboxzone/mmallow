@@ -42,7 +42,7 @@ fi
 install -dv $project_path
 cd $project_path
 if [ -d "$project_path/.git" ]; then
-	git pull origin
+	git pull origin geekbox:master
 else
 	git clone $github_urlbase/$repo_prefix $project_path
 fi
