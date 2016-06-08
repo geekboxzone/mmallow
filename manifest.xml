@@ -3,11 +3,11 @@
   <remote fetch="../../" name="aosp"/>
   <remote fetch="../../" name="rk"/>
   
-  <default remote="aosp" revision="refs/tags/android-6.0.1_r3" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-6.0.1_r43" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="4ae40b49fecfaabae1b7cab017e8d7b613b3ccc1"/>
-  <project name="android/RKTools" path="RKTools" remote="rk" revision="b8900ced64071828be1632d5f624726d41456975" upstream="ce941ac2d51d4fd7c97084fcb726df9da8bc77ba"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/device/common" path="device/common" remote="rk" revision="21f2c2038a44761692d5565c3c2912faffb6c4bf" upstream="430d955203616314eecb3945f08fe1c7c6381bda"/>
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="ad1357afedeffdaff616cc6610be457204bffac4"/>
+  <project name="android/RKTools" path="RKTools" remote="rk" revision="b8900ced64071828be1632d5f624726d41456975"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/device/common" path="device/common" remote="rk" revision="21f2c2038a44761692d5565c3c2912faffb6c4bf"/>
   <project groups="pdk" name="android/device/generic/arm64" path="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e"/>
   <project groups="pdk" name="android/device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="0e7af778b59c0ff590e21fcce8cfc9176dc0d13d"/>
   <project groups="pdk" name="android/device/generic/common" path="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461"/>
@@ -24,12 +24,12 @@
   <project groups="device" name="android/device/google/accessory/arduino" path="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5"/>
   <project groups="device" name="android/device/google/accessory/demokit" path="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs" name="android/device/google/atv" path="device/google/atv" revision="7c939825540f6dcfd4b37932f0e0e0c6b10b4351"/>
-  <project groups="pdk" name="android/device/sample" path="device/sample" revision="afdacb6b56cb407fe7dd887341369fffb0a0be7d"/>
+  <project groups="pdk" name="android/device/sample" path="device/sample" revision="b239828ba6f282793de417a46770c192c153ac47"/>
   <project groups="pdk" name="android/platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project groups="pdk" name="android/platform/art" path="art" revision="1dff62f822392dd3f95ec23ba578bf42430ba112"/>
   <project name="android/platform/bionic" path="bionic" remote="rk" revision="8249b7528d43db84a6ceafd4672e991e21b04579"/>
-  <project name="android/platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="451a4786d0aa84ef5ee172e28279979f9c101645" upstream="f8d807e4c80a58a3339a8b4e9fbd7ecb1af49a7f"/>
-  <project name="android/platform/build" path="build" remote="rk" revision="ab68590be207ab70875dbfb964d76b739336e281" upstream="d1252076d2aae1f80cc684d5f66beefcc8504ccd">
+  <project name="android/platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="b177e7f96f7546004f8ae761ee14af246116022c"/>
+  <project name="android/platform/build" path="build" remote="rk" revision="fb0e68d8e372a12f4366817fc6318359634b8795" upstream="ae1364bee931a77e696529cefaae507296374023">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="android/platform/cts" path="cts" revision="04d23e6526745822df2e62d78160fdcb1bd0a2e6"/>
@@ -40,7 +40,7 @@
   <project name="android/platform/developers/samples/android" path="developers/samples/android" revision="049d382f23bae257d8cf2dd2303eb2c3a166b932"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/development" path="development" revision="28bb8be0daaf93d0053fdeafc9de283eb7c59848"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/docs/source.android.com" path="docs/source.android.com" revision="918070543c8989f1088953e525a22176eb00caa0"/>
-  <project groups="pdk" name="android/platform/external/aac" path="external/aac" revision="48b330d303727e1f2671f844a1d541d596f6d5da"/>
+  <project groups="pdk" name="android/platform/external/aac" path="external/aac" revision="5d4405f601fa11a8955fd7611532c982420e4206"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/android-clat" path="external/android-clat" revision="35b34f09ab343ae8a75fcb9ff3cea180cf58992a"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/android-mock" path="external/android-mock" revision="c58b924d136b6d7e57d0b29636eb9ad87abbde0f"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/androidplot" path="external/androidplot" revision="c66727ebf001607cee14521c35bc852b55fd9845"/>
@@ -52,8 +52,8 @@
   <project groups="pdk" name="android/platform/external/apache-xml" path="external/apache-xml" revision="0b013a482e4f4de9add850e34dbe5119fc390596"/>
   <project groups="pdk" name="android/platform/external/bison" path="external/bison" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/blktrace" path="external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109"/>
-  <project groups="pdk" name="android/platform/external/boringssl" path="external/boringssl" revision="f7063c1e913edebd3402a2c2467c1bdb3d4b79a9"/>
-  <project groups="pdk" name="android/platform/external/bouncycastle" path="external/bouncycastle" revision="55639a786dcc5e7c94864ad76a0cbe79b9c2fb60" upstream="0445cba714f498e8246e40ce449b15912b974965"/>
+  <project groups="pdk" name="android/platform/external/boringssl" path="external/boringssl" revision="591be84e89682622957c8f103ca4be3a5ed0f800"/>
+  <project groups="pdk" name="android/platform/external/bouncycastle" path="external/bouncycastle" remote="rk" revision="ed831e8f7d7d78f169bb8a18de3420cc0fdba474"/>
   <project groups="pdk" name="android/platform/external/bsdiff" path="external/bsdiff" revision="9d4448afbbbe00353ea05f3be091535885e2e155"/>
   <project name="android/platform/external/busybox" path="external/busybox" remote="rk" revision="b570b896c245565fb70af529a2752de9c313285b"/>
   <project groups="pdk" name="android/platform/external/bzip2" path="external/bzip2" revision="707c3f0f5be01253da553f1449a476bd15240c2e"/>
@@ -65,18 +65,18 @@
   <project groups="pdk" name="android/platform/external/clang" path="external/clang" revision="6270ca65199882c73aa9699d8fbeb580870e8d30"/>
   <project groups="pdk-fs" name="android/platform/external/cmockery" path="external/cmockery" revision="77b7379c087dd5e6383aa502e36428adcdd46aab"/>
   <project groups="pdk" name="android/platform/external/compiler-rt" path="external/compiler-rt" revision="3b1a2d532ed2c4444dbc7557784d6f4dfe15a90c"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/conscrypt" path="external/conscrypt" revision="1b036fe4752fe2a4a59c85ace289dbea99e7ca10" upstream="295b30e7626761619041149bc6801d243063fd12"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/conscrypt" path="external/conscrypt" remote="rk" revision="4873eea5b4601262e02720a4c411441dc6e19fa9"/>
   <project groups="pdk-fs" name="android/platform/external/crcalc" path="external/crcalc" revision="9666c57ab247046b716e9c1e56f0dcc7d4a1545f"/>
   <project groups="pdk-fs" name="android/platform/external/deqp" path="external/deqp" revision="eee8271e04e7b701798aaee445c794f65a984d36"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/dexmaker" path="external/dexmaker" revision="fec7276299b950a8831ead9a9756d27e0fc60560"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/dhcpcd" path="external/dhcpcd" revision="857f5386e5665b8bd2755c018e2e40a500838d19" upstream="782285b3be6fd647284db735010ae0cbd55529bd"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/dhcpcd" path="external/dhcpcd" remote="rk" revision="e61bf3642f29cdfea35156b73fd10cafc197a9d4"/>
   <project groups="pdk" name="android/platform/external/dnsmasq" path="external/dnsmasq" revision="b955ca6befab20bc858dcaa6dc1f7f081725f2ac"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/doclava" path="external/doclava" revision="274a19e4c4a6dc90d1a71b5f5c54438f343868a5"/>
   <project groups="pdk-fs" name="android/platform/external/donuts" path="external/donuts" revision="005389fb31a67841b5de42f0d25fbfab843e208c"/>
   <project groups="drm_gralloc" name="android/platform/external/drm_gralloc" path="external/drm_gralloc" revision="47e7aba999eeca7b2db97ca388bc9c42524eec8e"/>
   <project groups="drm_hwcomposer" name="android/platform/external/drm_hwcomposer" path="external/drm_hwcomposer" revision="7cd2643b0de900e00e5b0cc0bd6dbbc649840b02"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/droiddriver" path="external/droiddriver" revision="72a40802f8e7d24a3175e09adc4b44a89df54f38"/>
-  <project name="android/platform/external/e2fsprogs" path="external/e2fsprogs" remote="rk" revision="23ebf303ad7143e4d5230b74ddd4e5dcef5a3942"/>
+  <project name="android/platform/external/e2fsprogs" path="external/e2fsprogs" remote="rk" revision="4b24d54d3c6d4b5d9f9946c84268a3d99bde4f26"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/easymock" path="external/easymock" revision="bb9f1a648bd829540d7be08432e8f3142a076f64"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" revision="076f46888ed346775b8efc564d7694063ef5eea7"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder" revision="a5f3ee137e94737538ec3bdf9b3716765d178c17"/>
@@ -90,9 +90,9 @@
   <project groups="pdk" name="android/platform/external/f2fs-tools" path="external/f2fs-tools" revision="3686eecd8c8511ae7ecd7611a2f065b48b484b13"/>
   <project groups="pdk" name="android/platform/external/fdlibm" path="external/fdlibm" revision="a80590655471025cfdbbd1328afc3ae5e6feab6a"/>
   <project groups="pdk-fs" name="android/platform/external/fio" path="external/fio" revision="b9da4221fd8a628a696d70c33ba1e7e8cc00a8fe"/>
-  <project groups="pdk" name="android/platform/external/flac" path="external/flac" revision="e685ca5e441867515363f6f9c1be5f609b67e975"/>
+  <project groups="pdk" name="android/platform/external/flac" path="external/flac" revision="b499389da21d89d32deff500376c5ee4f8f0b04c"/>
   <project groups="pdk-fs" name="android/platform/external/fonttools" path="external/fonttools" revision="fe6c510afddcf7f5d980b49e4398dc31953b43d3"/>
-  <project groups="pdk" name="android/platform/external/freetype" path="external/freetype" revision="ec62c527eb34ee4481a0153ceb42dfd35d7e1d26"/>
+  <project groups="pdk" name="android/platform/external/freetype" path="external/freetype" revision="f720f0dbcf012d6c984dbbefa0875ef9840458c6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/fsck_msdos" path="external/fsck_msdos" revision="17a1471db8c528cd9d44ec4385d2eb3614138856"/>
   <project groups="pdk,qcom_msm8x26" name="android/platform/external/giflib" path="external/giflib" revision="9b8f8602a74a943ddc356bb11c55b4998b2b386d"/>
   <project groups="pdk-fs" name="android/platform/external/glide" path="external/glide" revision="ac008b7995cd6956fc466f873ee2d810779a1e9b"/>
@@ -108,7 +108,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/hamcrest" path="external/hamcrest" revision="9fb9af468ed5e2ecba330348262dae5e04b7d006"/>
   <project groups="pdk,qcom_msm8x26" name="android/platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="240563d28c19abb7b20e5b91495066f56a804a2b"/>
   <project groups="pdk-fs" name="android/platform/external/hyphenation-patterns" path="external/hyphenation-patterns" revision="c15709c28e9623c1937038f08af603c492901cbd"/>
-  <project groups="pdk" name="android/platform/external/icu" path="external/icu" revision="e1bffda5827e7577ec0e9abf300eb8902bcfb222"/>
+  <project groups="pdk" name="android/platform/external/icu" path="external/icu" revision="a8a9e458b9e9a4fdc236e167c6c26d9b70e3da65"/>
   <project groups="pdk" name="android/platform/external/iproute2" path="external/iproute2" revision="f4a11ec4304282df65be16b2eda368329f3432b4"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/ipsec-tools" path="external/ipsec-tools" revision="be69e0250002f998173bedb124c56b68ab6292cd"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/iptables" path="external/iptables" revision="de2fa7133374831bcb5080a43e567e2e41f84ee7"/>
@@ -131,7 +131,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/junit" path="external/junit" revision="7e5a2e79b848a8c0373d65f2324f5f999a458518"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/kernel-headers" path="external/kernel-headers" revision="bed0ffadd7316307a87a7126349a7b59b924e4fd"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/ksoap2" path="external/ksoap2" revision="f13853ff0fa5eb65afc847176e55ca6db293eb3c"/>
-  <project groups="pdk" name="android/platform/external/libavc" path="external/libavc" revision="f82b347a6731608cc48857d08190e98186427b3c" upstream="533e5a7f03b976e2fa621e722394f1e4891f340e"/>
+  <project groups="pdk" name="android/platform/external/libavc" path="external/libavc" remote="rk" revision="be702f8818f9e646a53e83f65ebd724c18e2e793"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/libcap-ng" path="external/libcap-ng" revision="52447887e50b49f33f959077c31232edff6659d8"/>
   <project groups="pdk" name="android/platform/external/libcxx" path="external/libcxx" revision="076df933eb2d98152218b874abfa91cba660bcbd"/>
   <project groups="pdk" name="android/platform/external/libcxxabi" path="external/libcxxabi" revision="b451069aab57ccfe64c0fc7a18cfc487862fe985"/>
@@ -139,9 +139,9 @@
   <project groups="pdk-fs" name="android/platform/external/libedit" path="external/libedit" revision="315dded283ebd8627b4968d761b0c29bc241d7a3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/libexif" path="external/libexif" revision="fa0c1e7d954230cd29d896e6015314b2f68ad7bd"/>
   <project groups="pdk" name="android/platform/external/libgsm" path="external/libgsm" revision="1e26679795597459732408891bedea130b3ee1f1"/>
-  <project groups="pdk-fs" name="android/platform/external/libhevc" path="external/libhevc" revision="ac0823c0016a24c028655a672df65611b301c993" upstream="3f4863f574907e2809d9cb6fffaa776126d2f325"/>
+  <project groups="pdk-fs" name="android/platform/external/libhevc" path="external/libhevc" remote="rk" revision="21b8f3d5f26ad148bdfb149945ff0b0153eab1fc"/>
   <project groups="pdk" name="android/platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
-  <project groups="pdk" name="android/platform/external/libmpeg2" path="external/libmpeg2" revision="0342f2a064c5a0ee86cff3e48c06679fd30a11b7" upstream="9c9fd7a0b55e5a2df79b314e9c1c4a8cc10e9a5e"/>
+  <project groups="pdk" name="android/platform/external/libmpeg2" path="external/libmpeg2" remote="rk" revision="be6259dc64afe07d292071374cd5c790e7fe88e8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/libmtp" path="external/libmtp" revision="e204c41bf49cadc1de460f0cf902008955b356d9"/>
   <project groups="pdk" name="android/platform/external/libnfc-nci" path="external/libnfc-nci" revision="63183d2980cb2ab439daf75cad5e2f952caca045"/>
   <project groups="pdk" name="android/platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="76f8fa7177767cb377f9212e207e3ac16f9b8d48"/>
@@ -150,7 +150,7 @@
   <project groups="pdk" name="android/platform/external/libopus" path="external/libopus" revision="1391dbf0ccd121ce7a49d30e2142d36c8d404990"/>
   <project groups="pdk,pdk-cw-fs,pdk-fs" name="android/platform/external/libpcap" path="external/libpcap" revision="c442bf68e06f961ad0f8fc5a7d19e0984985ea30"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/libphonenumber" path="external/libphonenumber" revision="52e2840e86facf8cd64e032fb1d8c70d071f653a"/>
-  <project groups="pdk" name="android/platform/external/libpng" path="external/libpng" revision="5d53c06967da74189935063f7a75da6719a9c733"/>
+  <project groups="pdk" name="android/platform/external/libpng" path="external/libpng" revision="9d4853418ab2f754c2b63e091c29c5529b8b86ca"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/libseccomp-helper" path="external/libseccomp-helper" revision="e87019943a8b5a7cd0880910f671c37b240d5754"/>
   <project groups="pdk" name="android/platform/external/libselinux" path="external/libselinux" remote="rk" revision="0d4354c4ce316ab1f84fad1c910ac3a235ab94c6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/libssh2" path="external/libssh2" revision="2bb40f2445cab3ba588efb29e1835cdba2b27248"/>
@@ -192,7 +192,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/nfacct" path="external/nfacct" revision="6f7aae0264821b44e9fe80fb5596c525d3e2f475"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/nist-pkits" path="external/nist-pkits" revision="2c243d61d94b93eaef6fd5e0f727c9a2be838338"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/nist-sip" path="external/nist-sip" revision="b23dbfce7ea84c39cea75b612868a5832cb9af2b"/>
-  <project groups="pdk" name="android/platform/external/noto-fonts" path="external/noto-fonts" revision="37d90715389617b739b5ae97193cd614ecbd1117"/>
+  <project groups="pdk" name="android/platform/external/noto-fonts" path="external/noto-fonts" revision="8f0a9cf95c5d7048bd55329776f58a0b800a3ef5"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/oauth" path="external/oauth" revision="bc170f58de82000ed6460f111686a850a1890c07"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/objenesis" path="external/objenesis" revision="2a7655c0d503fcf5989098f65bf89eae78c32e5a"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/okhttp" path="external/okhttp" revision="6d3859960e52daf10b48b4d0ce45b011fa27f3a7"/>
@@ -202,24 +202,25 @@
   <project groups="pdk-fs" name="android/platform/external/owasp/sanitizer" path="external/owasp/sanitizer" revision="bbfb25464ff30c5a62dce351d719a8c533afb2a3"/>
   <project groups="pdk-fs" name="android/platform/external/parameter-framework" path="external/parameter-framework" revision="7f346c9058f39a533a2eaadc9ebc4001397c6ff9"/>
   <project groups="pdk" name="android/platform/external/pcre" path="external/pcre" revision="0d3d4875d4e672ab52cfd421da9a7fddbbaecda3"/>
-  <project groups="pdk" name="android/platform/external/pdfium" path="external/pdfium" revision="e6986e1e8d4a57987f47c215490cb080a65ee29a"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/ppp" path="external/ppp" revision="55362fd754b6f9b263aa1a5308d766e00436f931" upstream="2f5a56c9492fb06c07e0b9ec014bd8029aff187d"/>
+  <project groups="pdk" name="android/platform/external/pdfium" path="external/pdfium" revision="96f965ff7411f1edba72140fd70740e63cabec71"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/ppp" path="external/ppp" remote="rk" revision="55362fd754b6f9b263aa1a5308d766e00436f931"/>
   <project groups="pdk" name="android/platform/external/proguard" path="external/proguard" revision="ef2942809b198653e0cf181151a5f435f5bb7476"/>
   <project groups="pdk" name="android/platform/external/protobuf" path="external/protobuf" revision="2f4d8a1b744e2e62dcd68b7cb7159000e5751975"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/regex-re2" path="external/regex-re2" revision="9a16eac809c3bbb746f055b38d4e0d5c4f228c73"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/replicaisland" path="external/replicaisland" revision="99e2e54c5d036048caf09bb05eea0969de093104"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/robolectric" path="external/robolectric" revision="50bb07ea6b5560705e67cbf2859a2d4d371a5995"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/roboto-fonts" path="external/roboto-fonts" revision="f5cf79102af594c746627b392b4f98eedd254571"/>
+  <project groups="pdk" name="android/platform/external/rp-pppoe" path="external/rp-pppoe" remote="rk" revision="a31bbbece1e0d88a4d9559885114c44b5796943a"/>
   <project groups="pdk" name="android/platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
   <project groups="pdk" name="android/platform/external/scrypt" path="external/scrypt" revision="72691396f9fa84fd39cb72d031750e580e648aa3"/>
   <project groups="pdk" name="android/platform/external/selinux" path="external/selinux" revision="7d48e4a4a2c77a7cbb8f74af34c85563c2c1d81c"/>
-  <project groups="pdk" name="android/platform/external/sepolicy" path="external/sepolicy" remote="rk" revision="6a97f2ad3f7782a2ce73c49e8f68d086fbfb8887" upstream="7c1c3c6c7aa84aacbfb5ae608e1a5160e997c7ce"/>
+  <project groups="pdk" name="android/platform/external/sepolicy" path="external/sepolicy" remote="rk" revision="fede465323a88dc8fa3806045a24c78535eb44ee"/>
   <project groups="pdk,qcom_msm8x26" name="android/platform/external/sfntly" path="external/sfntly" revision="a01a58c85ae6f0b1fe97e4a383bb7536285264d8"/>
-  <project groups="pdk,qcom_msm8x26" name="android/platform/external/skia" path="external/skia" remote="rk" revision="b184917aadb345550d6716e74468a7f6d44fa993" upstream="d8a7e44fe4ca0a41b7d9602a2a79ee7630591dd7"/>
+  <project groups="pdk,qcom_msm8x26" name="android/platform/external/skia" path="external/skia" remote="rk" revision="df3728faf1607d3df0c017da58c48d567ca77ad1"/>
   <project groups="pdk-fs" name="android/platform/external/slf4j" path="external/slf4j" revision="7122d7eba20aeeaf319017b655271889f825f750"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/smali" path="external/smali" revision="15284127c9ed241f1de20fdd8cdb24cb12cd2119"/>
   <project groups="pdk" name="android/platform/external/sonic" path="external/sonic" revision="10c16fc60582d7e8bcf7533793871485d339e241"/>
-  <project groups="pdk" name="android/platform/external/sonivox" path="external/sonivox" revision="aec95561fca2354d5b697696cbcf96c7e5b21d30" upstream="c9e27eecfec1220b1aaf1b93e031bc08e2456f22"/>
+  <project groups="pdk" name="android/platform/external/sonivox" path="external/sonivox" remote="rk" revision="9a979a30ee32056c313716c822a9eb016acc1655"/>
   <project groups="pdk" name="android/platform/external/speex" path="external/speex" revision="ff03110e77ec7fe716c5be11783746f59c814e30"/>
   <project groups="pdk" name="android/platform/external/sqlite" path="external/sqlite" revision="040b55c0095a4c1e2ad5c047edc63c8e398dbc95"/>
   <project groups="pdk" name="android/platform/external/squashfs-tools" path="external/squashfs-tools" revision="1a710ff698178fbf71251395c4c96e3e7e73e2ed"/>
@@ -242,24 +243,24 @@
   <project groups="pdk" name="android/platform/external/vogar" path="external/vogar" revision="e40f8ded5b78b68b992938c497309b6dbcd7f462"/>
   <project groups="pdk,qcom_msm8x26" name="android/platform/external/webp" path="external/webp" revision="9e80ee991168a0a6c2a906dd2c17c5e17df4566e"/>
   <project groups="pdk" name="android/platform/external/webrtc" path="external/webrtc" revision="e4dce38d3d19cc36b32c33a87f504bdb6dbb76ae"/>
-  <project groups="pdk" name="android/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="47641b3a8e17a00078a5d0924e021403e1d64a7c" upstream="f6333d1b0bfa0194f53e78cc1d38cae5b6e15802"/>
+  <project groups="pdk" name="android/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="6e6b0c267fa6a9f1ea6e6c0aa8147247e567f52e"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf"/>
   <project groups="pdk" name="android/platform/external/zlib" path="external/zlib" revision="a15adad27b1a33de2f4c788809ba97cff726cf58"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/zxing" path="external/zxing" revision="d2256df36df8778a3743e0a71eab0cc5106b98c9"/>
-  <project groups="pdk" name="android/platform/frameworks/av" path="frameworks/av" remote="rk" revision="64abf23c283226812aa5a316d27520d36e2a788c" upstream="bbd686235a8b2ed49d748b725ac3b2310dee48c0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/base" path="frameworks/base" remote="rk" revision="b11d6e7c211cccc89aa3fa83db929ea0d0c27cc2" upstream="840a18bf60d28176a0c4001d29e22be6f776ab61"/>
+  <project groups="pdk" name="android/platform/frameworks/av" path="frameworks/av" remote="rk" revision="9e28dbaa7a6414b5200a17702e4c8db5e9951cfc"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/base" path="frameworks/base" remote="rk" revision="9531b9fee2fa74f6832ab3396d9329a9a2d95b22" upstream="a2a8a72d82a17161346d5b008fb50103d0e5e7d8"/>
   <project groups="pdk" name="android/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164"/>
   <project groups="pdk" name="android/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="8c10afdc806cbb9d4560e90b100f0dcefdd46a21"/>
   <project groups="pdk" name="android/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="83d9692ee33de81b19738356a342682593686c34"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/data-binding" path="frameworks/data-binding" revision="8b7340d0b2e57d5a3d71135f778b7f90e274a5f3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/ex" path="frameworks/ex" revision="8d069cf9807027f7b3148589292f8f0544179ebf"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/mff" path="frameworks/mff" revision="b9669b8540a1e5c953374d53b115514335e23c27"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/minikin" path="frameworks/minikin" revision="0c3b0b4b69a7120cfb15044987e81b2369595a27" upstream="86542797761632890092ef89b7fb58c2c2cdfc11"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/minikin" path="frameworks/minikin" remote="rk" revision="6d1d021509d911a36f647ecd6f611b6849f07060"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/ml" path="frameworks/ml" revision="e0721529b9662b5ffb6cc7daf5b097720f5eb3e8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/multidex" path="frameworks/multidex" revision="805db15e4d7baa57062ad08fb03eeac8691475c8"/>
-  <project groups="pdk" name="android/platform/frameworks/native" path="frameworks/native" remote="rk" revision="c8a66ec47c6eeef503042c5e8ff4ead24ac3211d" upstream="2cbfaf929493536859301d9ae04bc95f82b02ef6"/>
+  <project groups="pdk" name="android/platform/frameworks/native" path="frameworks/native" remote="rk" revision="a5b2eaefb666ff2cceb17a24dd83fa543b6f156e"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="856e2a9d72fe3a79cd7bfa5cf443d13a60495c4b"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="4231be1e03b7c5e563fea1fa7c56abfe2a1e61dd"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2"/>
@@ -270,13 +271,14 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="709f713ebcd62c61defc270d945810efca179621"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" revision="3baece9b20fa480da46d860acd7320fd9eee3386"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb"/>
-  <project groups="pdk-fs" name="android/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="0f3419713c559cdc2785c6dc9267d8cdfdd9e7fc" upstream="3e81fb6ecfc5aa401baf5b07ba74acb772c89b0b"/>
+  <project groups="pdk-fs" name="android/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="0f3419713c559cdc2785c6dc9267d8cdfdd9e7fc"/>
   <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="57911d120a57beb906c00cfddbdae38249b205e7"/>
+  <project groups="pdk-fs" name="android/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="86e2a6fbac2c5ba885f830c6478a938ada89dfbb"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="4877ed122ed52095c86088c1d7122eae1aaab329"/>
-  <project groups="pdk" name="android/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="f1ff5ca000130539155e6c6c9f5ed5e11ec7e3f7" upstream="e2f16d5879137e06d0e161b38bfe547d1645bc22"/>
+  <project groups="pdk" name="android/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="e080972dc1c6660f48888b5cd50a8b440d8a82ae"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="09f6c9bd0d12bb10f64cb080f5ee7aed6b5a8e7a"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="e9679af63f2ff0f4ae97316cbafbe80b3a78370e"/>
-  <project groups="pdk" name="android/platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="c3a76d7fa3b503e19b244d74de0b7102725e27f8" upstream="edb3e72229eb621733f15091bfe85c62bf64f983"/>
+  <project groups="pdk" name="android/platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="9eedbfd73303a0bedf5f203653db792459295706"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="9e6f5d2748e31d1ab4f0f47d851c4ca55bc60bf1"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="600d08e46f52d510598ffe382bf83f576f7ab8a6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/widget" path="frameworks/opt/widget" revision="466e0e0307b3f6aa4f4be3d9419b5996bd389da5"/>
@@ -286,8 +288,8 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/webview" path="frameworks/webview" revision="af710f265a2502289955875c1810f4f825370da6"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="b4e379dd5a7dc764260ace7b73a782077ff10232"/>
   <project name="android/platform/hardware/akm" path="hardware/akm" revision="85837c2e77e032a834121ec3b9b6128f691d68a8"/>
-  <project groups="pdk" name="android/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="rk" revision="b33815f9d0e5cbd78d1df42ad9a2f3aa55f2093d"/>
-  <project groups="pdk,broadcom_wlan" name="android/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="9bf8541e120b9c67e269a5364de8cf3a18307472" upstream="e691dea8644c74095aab030299dddd6c966e9c4a"/>
+  <project groups="pdk" name="android/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="rk" revision="588fb60a1d87599581e867ad236eeb4d77820457"/>
+  <project groups="pdk,broadcom_wlan" name="android/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="07b9adf636879a5c2b05c98bce5885238f588e16"/>
   <project groups="intel" name="android/platform/hardware/intel/audio_media" path="hardware/intel/audio_media" revision="218f0d6bc9532d0b707ea325fd96998249fe47bf"/>
   <project groups="intel" name="android/platform/hardware/intel/bootstub" path="hardware/intel/bootstub" revision="90981c0c7c7f9f7488bbf0a776a824bed31c6f81"/>
   <project groups="intel" name="android/platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov" revision="8af329f2d2b54dfcfa84051d3ce1fae95f79011a"/>
@@ -298,17 +300,17 @@
   <project groups="intel" name="android/platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components" revision="a2f2b42ced7efa9231d05389d56268e857f906d9"/>
   <project groups="intel" name="android/platform/hardware/intel/common/utils" path="hardware/intel/common/utils" revision="b2615f1e02eb59b78a9af088ea40299cd0526ff0"/>
   <project groups="intel" name="android/platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" revision="64a9b8fb6b6c6538b1bf1d4b1c9f22ca139093a9"/>
-  <project groups="intel" name="android/platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer" revision="47bcb651180100c5f01c2d0d7c0ce023b970c247"/>
+  <project groups="intel" name="android/platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer" revision="6fd39da3507005fb5f733fddfd516f5e5b6f0149"/>
   <project groups="intel" name="android/platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers" revision="eecb5f24ecb6e09fe1b27bad76c73e333a83a336"/>
   <project groups="intel" name="android/platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" revision="cf82d4e3f5d063a5a284662052cbbc6f124f37e3"/>
   <project groups="intel_sensors" name="android/platform/hardware/intel/sensors" path="hardware/intel/sensors" revision="6ef7662419981a762df75fbc57fcfde52902c123"/>
   <project groups="invensense" name="android/platform/hardware/invensense" path="hardware/invensense" revision="e0c1691f695f828608c36315fa405db2fa8d153e"/>
-  <project name="android/platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="6a8bc8b478a212760134c1d2f5d046834f65dddd"/>
-  <project groups="pdk" name="android/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="98faef869a73b5d8eb55d79527e962390e0a7694" upstream="9b93796b3e7a98b4b083a9937793c5c2bb95c26d"/>
+  <project name="android/platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="90a686afbb432e70e32522b93452de8b6df71af5"/>
+  <project groups="pdk" name="android/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="98faef869a73b5d8eb55d79527e962390e0a7694"/>
   <project groups="marvell_bt" name="android/platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251"/>
   <project groups="mediatek,mediatek_wear" name="android/platform/hardware/mediatek" path="hardware/mediatek" revision="84eac90753d5c99bc0b05df34c400d1f58c01213"/>
   <project groups="nvidia_audio" name="android/platform/hardware/nvidia/audio" path="hardware/nvidia/audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7"/>
-  <project groups="qcom,qcom_audio" name="android/platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="26f06c79dd04fba38a97f2548ead140d25edde78"/>
+  <project groups="qcom,qcom_audio" name="android/platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="a18111d2db2a5e43a5ba318073986c12f9c86720"/>
   <project groups="qcom" name="android/platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="f2169748daa2d42d833831d240dfad98161f3c32"/>
   <project groups="qcom" name="android/platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="2b9220248bd56e2e200208e8ef5130b5046a3b48"/>
   <project groups="pdk,qcom,qcom_display" name="android/platform/hardware/qcom/display" path="hardware/qcom/display" revision="405d29dc5b902b2bc2caee2de695d251a3f65141"/>
@@ -327,26 +329,26 @@
   <project groups="omap3" name="android/platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="40292fb9eeb2cf0bb95dc818da12ddcae40b931c"/>
   <project groups="omap4-aah" name="android/platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah" revision="80bb3b85334de55efaf304b421602bbc7239fc97"/>
   <project groups="omap4" name="android/platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="b94c6fe6065530b9b10ac3be53a35906e81a155a"/>
-  <project groups="pdk" name="android/platform/libcore" path="libcore" revision="e5d8d9a331e32595e1f6dc97b751c321a5ca8559" upstream="6de5831683acc64e2ca5efa61fae6834314d0eb2"/>
+  <project groups="pdk" name="android/platform/libcore" path="libcore" remote="rk" revision="add727c481a87e79bf6d9e3ead465801a39c07a6"/>
   <project groups="pdk" name="android/platform/libnativehelper" path="libnativehelper" revision="b7a25286026b49f0f7d95b25f2d32c4f47f498ef"/>
   <project groups="generic_fs" name="android/platform/ndk" path="ndk" revision="e6403c6a048bdec5a7fc7c6c0cc149fc5f098f80"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="fab9ee32088a966773aae14ec368e731113da5a2"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="rk" revision="8f06381ec626b5a4df7871f32b87ea9b8f0f80b5" upstream="d2a926e222d80f8b647a36f3fa109a3f82f87e84"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="rk" revision="2b7aa3e023b2a574b5fb9a4d45ef4e278aa4558e"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="1194f65cd0f6cff179e1a1a3833c4d2a072b305e" upstream="a9f4530cc7fa342df488bf22a7d5ab4e0d43b12c"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Calculator" path="packages/apps/Calculator" remote="rk" revision="a36c13a318b33a9bf72859999125d5e532848ea7"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="916259681ce2216d95c05a5064ed71d0b0d7f422"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Camera" path="packages/apps/Camera" revision="33c59af04ab44eff0e3806f140d472252300646a"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="rk" revision="58381c22c5c7201881acdf5afe6a804a1b1dd9b9" upstream="fef46cac9896e0fb526ee3300f0ef155a4475984"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="rk" revision="58381c22c5c7201881acdf5afe6a804a1b1dd9b9"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="b9b17597ac859d67ded73d23435bf1a012c1530f"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="3d91c54e6649ec46ddd728079702aba2f0ae96b8"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="6f3fcf40edf902af60fe8676dd4bc0e2c7b92ef2" upstream="0a66a571a80538bc765a7bea799cd16f55c513d5"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="rk" revision="02d0b8f4971351b2b890620340f2ac33edd84827"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="946371f8314ae0578a3559a956343ea9dbd77bf1"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" revision="44182ce6e8cc54251bbad2ef58875aa814cf18c4"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/DeskClock" path="packages/apps/DeskClock" remote="rk" revision="35e9cbc6ac7002e44513ee0837dfaaf765827e85"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="f4b1101e5831faa5407e44566185007788090dce"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Email" path="packages/apps/Email" revision="c84ce2000f443ef6c7a6df6ad0b1c76abae7790b"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Email" path="packages/apps/Email" revision="2791f0b33b610247ef87278862e66c6045f89693"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="rk" revision="ca6cc1829744c70448fc0bb360f310785d339f09"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="c4575f581a7f2de2391cbbab9541632775c0ef87" upstream="521e442b90ee20368be5d4dd33ec67e1f89872c7"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Exchange" path="packages/apps/Exchange" remote="rk" revision="082e758592283f7cad9ad2645e5635ba3bb9eae5"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/FMRadio" path="packages/apps/FMRadio" revision="f036f26225f774f2ae67070721ec5b043e34b512"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="8e773d9ee3880b989e2d55d9e3cab3a3fbe8b396"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="rk" revision="a913876f1158a7bfc1396a9c362eaaae6f70242a"/>
@@ -354,7 +356,7 @@
   <project groups="pdk-fs" name="android/platform/packages/apps/InCallUI" path="packages/apps/InCallUI" revision="de77e317e551f09e94a0caa82448a95ba23f4fa2"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="4eaca1480bb1313200a32a1e6c3cfad5cb1bf415"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="3082585c72856e45dacb0610aa3591fa4d27ddf5"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="73dca5f366cbe13e0c8e1e309b10c6e82728ac21" upstream="5fcaab43e603ceabd1d71ec355c8a0b59aac8cf0"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="rk" revision="eb006da67dc3423feb07d8b8b0771d3fa74e6521" upstream="bc8a716ec70e3349b821f827dd0d74ed4db93215"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="8e2f0e48cb3d2209f1cf818b6cf8c4bd95645783"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="9e7ee61753f32ad2fa1d6572fc7d90648cefb0eb"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="1bc276100f18e5092b4bc270add5902c1de29356"/>
@@ -368,36 +370,36 @@
   <project groups="pdk-fs" name="android/platform/packages/apps/Protips" path="packages/apps/Protips" revision="ec5d268260d97499dd45849e29e8c4f5e75dd539"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Provision" path="packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="3ba0f015d44a71494d10daad5a6f5b487b6b7bf5"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="e432727c11235fa5015d3e6c36d05b6dad65db94" upstream="0b43b4eb68251bcf42ced15049355c966e4ec8a7"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="8c84be755ba75dbec32ecf59664a6ddacf560e95" upstream="5e1c634822ab06a057cc30afe267b71e28b045b7"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="db5acd7827176f023ec7bdd9906ad75b1b636d16" upstream="f8745fac29073820499bf299b67f792bfbe76d7b"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="db5acd7827176f023ec7bdd9906ad75b1b636d16"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="725f4c8c46d74bae6795f1b0ddd5fd459e06b6f4"/>
   <project groups="apps_stk,pdk-fs" name="android/platform/packages/apps/Stk" path="packages/apps/Stk" revision="e57e462a6858a73e3f2992a262eb4c0d34eacbd2"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Tag" path="packages/apps/Tag" revision="fdccac1eddd8577b0e728cd8e0fb219676b4ed54"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="5b68e8ad082625206492ca9baf889f8c5427eb01"/>
   <project groups="generic_fs" name="android/platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="ebd4809777068088ef599ad6fec72733554572d2"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="dd72c28461f2a442547d771f70a7141a1a7ed060" upstream="a4d171f3b810567d6c60ae02ff1564b15ba75a94"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" remote="rk" revision="5ea46fbeb831eaed4ebf4f800c2429e3e411c771"/>
   <project name="android/platform/packages/experimental" path="packages/experimental" revision="7b02b6bbaf0b4330ac05fda8cd47f4044ee2740a"/>
-  <project groups="pdk-fs" name="android/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="15dd9904e305df9b89a1f06cb2902302a94dcebf" upstream="41396aa4197c576e31903b6e4d2e15e39a2fe0ff"/>
+  <project groups="pdk-fs" name="android/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="rk" revision="15dd9904e305df9b89a1f06cb2902302a94dcebf"/>
   <project groups="pdk-fs" name="android/platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="59aefa242169b7a51c2381daee58ff22fd1834ce"/>
   <project groups="pdk-fs" name="android/platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="33d26f5eedb3d3011762ce5b2de66e931bf64b35"/>
   <project groups="pdk-fs" name="android/platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" revision="cb9cab2375e43361903878857ff967580bb8df43"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="5d19871f605f7fd08d632556d210ea30893815c9"/>
   <project groups="pdk-fs" name="android/platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="349e0f4b527d73ed575d4c33eed1e99599e5acf6"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="ade78bd70affa0d5963a998152646f55dfe24bf5"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="16917b5ece41ffcf391c37f1b36890f0f5099a49" upstream="4099afd8117743bdab7ea4281638adadf0f501ba"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="rk" revision="70b6bfdca1ec0d173b23d9ef056959b03f0a6c1f" upstream="c3462ff4990dcb11e04e86086972f39df98cce9a"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="d1d67f9ab530e4862af024eeed76ddc178b4bbd4"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" remote="rk" revision="82ca31d222c0f214af60bd12a7d6c982b0467f7b"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="rk" revision="70b6bfdca1ec0d173b23d9ef056959b03f0a6c1f"/>
   <project groups="pdk-fs" name="android/platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="f596d654b5e0c392a42facb0fad62706399cc21a"/>
   <project groups="pdk-fs" name="android/platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="7c772300cb683faf20cb6631136f64f482dd6da3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="a1c7b9a3182c6e1a6e3bf370e155885ac66cd030"/>
   <project groups="pdk-fs" name="android/platform/packages/screensavers/Basic" path="packages/screensavers/Basic" revision="a2ffa43e112f0c81a42846b8cd4b53715f702c2f"/>
-  <project groups="pdk-fs" name="android/platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="25912383e24c1a2fa69c158d78dd00a34501e608" upstream="ba170abed62371f26b3b1b7255ff1631d69bb964"/>
+  <project groups="pdk-fs" name="android/platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="rk" revision="25912383e24c1a2fa69c158d78dd00a34501e608"/>
   <project groups="pdk-fs" name="android/platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Mms" path="packages/services/Mms" revision="7109ffadcf870446f6d606513ac6ca66b2ec83b4"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="dbecf0593c04bf533b397cec83144b7013203b00" upstream="d9f9006eafb1751f1b4ae1aa0954d445aa03fd3c"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telephony" path="packages/services/Telephony" revision="f17afe14a8803b598e41e4c1df15954018ed4653" upstream="fbd58ff5ad614762b7bbc8b4ce7d578d7a8fe517"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telecomm" path="packages/services/Telecomm" remote="rk" revision="875a102b245f2775bca9e6f2c074ff41921c6798"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/packages/services/Telephony" path="packages/services/Telephony" remote="rk" revision="7fa8de8631d02268b556c1a0f0cc4110ae84ba96"/>
   <project groups="pdk-fs" name="android/platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="21699347a4b7b71857455a6e8d452e1ef92087bc"/>
   <project groups="pdk-fs" name="android/platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="83ce967f34f1b099fafef55d5c23ba4aea78dd64"/>
   <project groups="pdk-fs" name="android/platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="2f0660b447f6dc4d0048450f5198c2345422e46b"/>
@@ -439,40 +441,43 @@
   <project groups="pdk" name="android/platform/prebuilts/sdk" path="prebuilts/sdk" revision="a5bb76a8bf43f9a0a0c22c6c68df66d489d17d70"/>
   <project groups="pdk,tools" name="android/platform/prebuilts/tools" path="prebuilts/tools" revision="b15d7ade80fd69fb2fb7de61abfd9f1afce91c44"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/sdk" path="sdk" revision="c78d07c6e964f23dc12ba739aff49ff1bf74b323"/>
-  <project groups="pdk" name="android/platform/system/bt" path="system/bt" remote="rk" revision="5a6264f74653b7d2573bd9ebf497a0dca1ae122b" upstream="447528b013ed03a8886b12a9b665ddd950b80a76"/>
-  <project name="android/platform/system/core" path="system/core" remote="rk" revision="57f7730d5cfb2af0dbb033a90d33367bede6f6a0" upstream="d836f0e6b23a0082ee897b73d738b36579e61ae7"/>
-  <project groups="pdk" name="android/platform/system/extras" path="system/extras" revision="83eeed92430fc3f14c21cfc43d11fcecef6e8285"/>
+  <project groups="pdk" name="android/platform/system/bt" path="system/bt" remote="rk" revision="a74692eb56411068a2ef5804893bcc7ab2b6b17d"/>
+  <project name="android/platform/system/core" path="system/core" remote="rk" revision="11e25ffb7e391484faf59528c3297f1c1e38df8f"/>
+  <project groups="pdk" name="android/platform/system/extras" path="system/extras" remote="rk" revision="ea35307ec386a851c4c305ce70fafda36f764135"/>
   <project groups="pdk" name="android/platform/system/gatekeeper" path="system/gatekeeper" revision="e547f93b0089f12c78d33b83e5f49fdb0e0c85bc"/>
   <project groups="pdk" name="android/platform/system/keymaster" path="system/keymaster" revision="39ba76dc0fd9f516d8bcd76cf2d6251206316811"/>
   <project groups="pdk" name="android/platform/system/media" path="system/media" revision="dce0eca34eab2016d6d11cb32f072db4079a4461"/>
   <project groups="pdk" name="android/platform/system/netd" path="system/netd" revision="c8683d7eb9bb95de2090431e8daaa45d92b45e38"/>
   <project groups="pdk" name="android/platform/system/security" path="system/security" revision="1f76969bd8b6179f256dafb938bb458bc997c23d"/>
-  <project groups="pdk" name="android/platform/system/vold" path="system/vold" remote="rk" revision="b7f41044e0b2fa50ac9bf45e38cf4fe73fcd60ea" upstream="383a787f2466c60f5c13669a20e50978db359d5c"/>
+  <project groups="pdk" name="android/platform/system/vold" path="system/vold" remote="rk" revision="b7f41044e0b2fa50ac9bf45e38cf4fe73fcd60ea"/>
   <project groups="tools" name="android/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03"/>
   <project groups="tools" name="android/platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997"/>
-  <project name="android/rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="022a645dc034b56086ae0e3ee271c0f15dcb2cb3" upstream="4ba5da082084cb3a074c395474625783150d2bd9">
+  <project name="android/rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="b411daa4fea27775f16f3aa214f0d1e1a85e44d6" upstream="ff2eba6db1296b4d743383d185b03d609e1f9a06">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
   </project>
-  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="8360d03777ef1099b92c347da1b9142bb27b17e9" upstream="590d21d80a049db6d83d17bdc69411ba5c46ea2e">
+  <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="b29e098e12068374c2f2fa75f10a9699bd6577fe" upstream="116578a9bab8c915d596216bcafdde2fc70d2ab8">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
-  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="cccaf4a79f284b161695857eeb5e0a871172d1cc" upstream="6825a88e73e232908b2dd8a1d158b9e1a5c05607"/>
-  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="5ee40eab1c65487529d8d184e900df54294987e9" upstream="20febbb0c65b1525d600ef7da9223a7759af1355"/>
-  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="b3f344594356e20bca6eb7c86cef499d1ae810ba" upstream="c0b7823076802e83ca065d8e7b66aad440dcc784"/>
+  <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="3a66080b430e7b59e7d880f7c48bcd79ed98256d"/>
+  <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="183ad15a405ca4d5527ef4d4d8c96bb69bc42aa9"/>
+  <project name="android/rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="ca7b5c87d321b682688db1c217a60bbdb9e14223"/>
+  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="2047d4e2e0aeb2007de6c8827c5c7e4662bbf1af"/>
   <project name="android/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275"/>
-  <project name="android/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="73d92981ef412bc8fd995d36e7fdc3f9c6d869a4" upstream="a7c35370dc2236d4ccc4d028b7fe0d15fd3f0bd7"/>
+  <project name="android/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="73d92981ef412bc8fd995d36e7fdc3f9c6d869a4"/>
   <project name="android/rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="af784e17afc92243dde1ec4d2bd3bca11bf7b77a"/>
-  <project name="android/rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="48ea270da577558a8e7fe875f75a0235739ac8e4" upstream="9aac387b6e040e23a343157bb3b26be0574c7b2f"/>
-  <project name="android/rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="6fa97ff548b9264a507a344a63724da12660727a" upstream="7e52b98067bde438004bfa14f090975c0fad75ac"/>
-  <project name="android/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="b4f20e29f6faeb91e3d7e740c7efb8d074ed1081"/>
+  <project name="android/rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="48ea270da577558a8e7fe875f75a0235739ac8e4"/>
+  <project name="android/rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="00163105c1ef428aff40265acfe7bc1d11635f72"/>
+  <project name="android/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="155c7a07beab97624346c5bc4417c3d07025a69a"/>
   <project name="android/rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="cdbd9643b70b0fd1fcfd253f7559a23c95d5d30d"/>
   <project name="android/rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147"/>
   <project name="android/rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="e6562fac1aac779147f5236c3a1b30ecd4525059"/>
-  <project groups="pdk" name="android/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="e5ba7f983351247961ef6b5c790b149646b00452" upstream="756a227cd0ebfdf1bf1af3eedcbf6ee0d9af33d4"/>
-  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="392a33acdd0494966f22a0b24338ccf8adbe003f"/>
-  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="18ff8e672ab45129119b3a830f1d2f176ac66df8" upstream="40d3be90ad46c688fcf9b9bd871a43939e1423d0"/>
+  <project groups="pdk" name="android/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="e5ba7f983351247961ef6b5c790b149646b00452"/>
+  <project name="android/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="9713261b166a49d367d0187b31d9dc954fc60a36"/>
+  <project groups="pdk" name="android/rk/platform/system/displayd" path="system/displayd" remote="rk" revision="e4439ecb38839d9c42fbc9bb56187ed7485e29b6"/>
+  <project name="android/rk/platform/vendor/Widevine" path="vendor/widevine" remote="rk" revision="b31f3a9647ff0f6a31ca43809d58bf2676caabd1"/>
+  <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="54481eb955808f73b1b69a8e449a60198bc2ef78" upstream="57500c1202c020a290583990a349d53718bc708a"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="e61f4ca5ecca4d5cd65ce89fbc0108f44a58b3c3" upstream="cce8953741e403fc25e334fda8fb3f99b547e631"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="1773415b58eeadbee1067bdd853b748aa852f3cb" upstream="b0cd913d7cd90676953ba0bbfd3af591f5af3606"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="cce7efb8928362e908348e6852f02ddaf938424b" upstream="77dcb44a7a1ad244ab48ea8810fe7d37f6c1b393"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="3d2430c999f3d647b9275c51d399d84e121dca73" upstream="e9b9eb31bb96664f7df7eefa448947e0a10d17ab"/>
 </manifest>
