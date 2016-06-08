@@ -443,6 +443,7 @@ rkst
 sdk
 system/bt
 system/core
+system/displayd
 system/extras
 system/gatekeeper
 system/keymaster
