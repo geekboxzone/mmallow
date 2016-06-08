@@ -321,6 +321,7 @@ hardware/qcom/wlan
 hardware/ril
 hardware/rockchip/audio
 hardware/rockchip/camera
+hardware/rockchip/hdmicec
 hardware/rockchip/hwcomposer
 hardware/rockchip/jpeghw
 hardware/rockchip/libgralloc
