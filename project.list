@@ -204,6 +204,7 @@ external/replicaisland
 external/rk-pcba-test
 external/robolectric
 external/roboto-fonts
+external/rp-pppoe
 external/safe-iop
 external/scrypt
 external/selinux
@@ -267,6 +268,7 @@ frameworks/opt/inputconnectioncommon
 frameworks/opt/inputmethodcommon
 frameworks/opt/net/ethernet
 frameworks/opt/net/ims
+frameworks/opt/net/pppoe
 frameworks/opt/net/voip
 frameworks/opt/net/wifi
 frameworks/opt/photoviewer
