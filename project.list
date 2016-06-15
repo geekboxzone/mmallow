@@ -69,7 +69,6 @@ external/drm_hwcomposer
 external/droiddriver
 external/e2fsprogs
 external/easymock
-external/eclipse-basebuilder
 external/eclipse-windowbuilder
 external/eigen
 external/elfutils
@@ -87,7 +86,6 @@ external/freetype
 external/fsck_msdos
 external/giflib
 external/glide
-external/google-breakpad
 external/google-fonts/carrois-gothic-sc
 external/google-fonts/coming-soon
 external/google-fonts/cutive-mono
@@ -400,11 +398,8 @@ packages/wallpapers/NoiseField
 packages/wallpapers/PhaseBeam
 pdk
 platform_testing
-prebuilts/android-emulator
 prebuilts/clang/darwin-x86/host/3.6
-prebuilts/clang/linux-x86/host/3.6
 prebuilts/devtools
-prebuilts/eclipse
 prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
 prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
 prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9
@@ -428,8 +423,6 @@ prebuilts/misc
 prebuilts/ndk
 prebuilts/python/darwin-x86/2.7.5
 prebuilts/python/linux-x86/2.7.5
-prebuilts/qemu-kernel
-prebuilts/sdk
 prebuilts/tools
 sdk
 system/bt
