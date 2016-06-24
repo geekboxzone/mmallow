@@ -250,7 +250,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/external/zxing" path="external/zxing" revision="d2256df36df8778a3743e0a71eab0cc5106b98c9"/>
   <project groups="pdk" name="android/platform/frameworks/av" path="frameworks/av" remote="rk" revision="9e28dbaa7a6414b5200a17702e4c8db5e9951cfc"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/base" path="frameworks/base" remote="rk" revision="9531b9fee2fa74f6832ab3396d9329a9a2d95b22" upstream="a2a8a72d82a17161346d5b008fb50103d0e5e7d8"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/base" path="frameworks/base" remote="rk" revision="1e8c67d43967d79159532a36f92f0d7814e8a915" upstream="a2a8a72d82a17161346d5b008fb50103d0e5e7d8"/>
   <project groups="pdk" name="android/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164"/>
   <project groups="pdk" name="android/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="8c10afdc806cbb9d4560e90b100f0dcefdd46a21"/>
   <project groups="pdk" name="android/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="83d9692ee33de81b19738356a342682593686c34"/>
@@ -260,7 +260,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/minikin" path="frameworks/minikin" remote="rk" revision="6d1d021509d911a36f647ecd6f611b6849f07060"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/ml" path="frameworks/ml" revision="e0721529b9662b5ffb6cc7daf5b097720f5eb3e8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/multidex" path="frameworks/multidex" revision="805db15e4d7baa57062ad08fb03eeac8691475c8"/>
-  <project groups="pdk" name="android/platform/frameworks/native" path="frameworks/native" remote="rk" revision="a5b2eaefb666ff2cceb17a24dd83fa543b6f156e"/>
+  <project groups="pdk" name="android/platform/frameworks/native" path="frameworks/native" remote="rk" revision="1b8252ca34a0a5a95402544115ff4d82d1eaa59f" upstream="a5b2eaefb666ff2cceb17a24dd83fa543b6f156e"/>
   <project groups="pdk-fs" name="android/platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="856e2a9d72fe3a79cd7bfa5cf443d13a60495c4b"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="4231be1e03b7c5e563fea1fa7c56abfe2a1e61dd"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2"/>
@@ -370,7 +370,7 @@
   <project groups="pdk-fs" name="android/platform/packages/apps/Protips" path="packages/apps/Protips" revision="ec5d268260d97499dd45849e29e8c4f5e75dd539"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/Provision" path="packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="3ba0f015d44a71494d10daad5a6f5b487b6b7bf5"/>
-  <project groups="pdk-fs" name="android/platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="8c84be755ba75dbec32ecf59664a6ddacf560e95" upstream="5e1c634822ab06a057cc30afe267b71e28b045b7"/>
+  <project groups="pdk-fs" name="android/platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="406749805c944ac7fa8cc7b37311277405f29e63" upstream="5e1c634822ab06a057cc30afe267b71e28b045b7"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="db5acd7827176f023ec7bdd9906ad75b1b636d16"/>
   <project groups="pdk-fs" name="android/platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91"/>
@@ -452,7 +452,7 @@
   <project groups="pdk" name="android/platform/system/vold" path="system/vold" remote="rk" revision="b7f41044e0b2fa50ac9bf45e38cf4fe73fcd60ea"/>
   <project groups="tools" name="android/platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03"/>
   <project groups="tools" name="android/platform/tools/external/gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997"/>
-  <project name="android/rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="b411daa4fea27775f16f3aa214f0d1e1a85e44d6" upstream="ff2eba6db1296b4d743383d185b03d609e1f9a06">
+  <project name="android/rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="532e5c3af94db2ed7f86a20757eed1b335295880" upstream="ff2eba6db1296b4d743383d185b03d609e1f9a06">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
   </project>
   <project name="android/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="b29e098e12068374c2f2fa75f10a9699bd6577fe" upstream="116578a9bab8c915d596216bcafdde2fc70d2ab8">
@@ -479,5 +479,5 @@
   <project name="android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="54481eb955808f73b1b69a8e449a60198bc2ef78" upstream="57500c1202c020a290583990a349d53718bc708a"/>
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="cce7efb8928362e908348e6852f02ddaf938424b" upstream="77dcb44a7a1ad244ab48ea8810fe7d37f6c1b393"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="3d2430c999f3d647b9275c51d399d84e121dca73" upstream="e9b9eb31bb96664f7df7eefa448947e0a10d17ab"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="b1b34c3ac6efab7ad1666efb008fa4d0548aeeb3" upstream="e9b9eb31bb96664f7df7eefa448947e0a10d17ab"/>
 </manifest>
