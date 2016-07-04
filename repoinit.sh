@@ -22,9 +22,10 @@ repo_check() {
 	echo $?
 }
 
-while getopts "sd:" args
+while getopts "csd:" args
 do
 	case $args in
+	"c")	needCleanSync="yes";;
 	"s")	needSync="yes";;
 	"d")	userpath=$OPTARG;;
 	"?")	usage;;
@@ -62,6 +63,13 @@ while [ "$reponum" -le "$REPONUMS" ]; do
 		if [ "$needSync" = "yes" ]; then
 			# exist & is needed: pull to sync
 			cd $repo_path
+			git pull origin
+			cd $project_path
+		fi
+		if [ "$needCleanSync" = "yes" ]; then
+			# exist & is needed: pull to sync
+			cd $repo_path
+			git reset --hard
 			git pull origin
 			cd $project_path
 		fi
